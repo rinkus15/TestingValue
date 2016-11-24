@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<thirdPartyCredentialsHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <externalSystem>
+        <a:uuid>591bb52d-125a-43a9-a594-733ee37bc1e8</a:uuid>
+        <a:name>Linkedin</a:name>
+        <a:description>Credential to use Linkedin </a:description>
+        <a:key>linkedin</a:key>
+        <a:attribute>
+            <a:key>appsecretkey</a:key>
+            <a:name>appkeysecret</a:name>
+            <a:showValueOnUi>true</a:showValueOnUi>
+        </a:attribute>
+        <a:attribute>
+            <a:key>accesstoken</a:key>
+            <a:name>accesstoken</a:name>
+            <a:showValueOnUi>true</a:showValueOnUi>
+        </a:attribute>
+        <a:attribute>
+            <a:key>appkey</a:key>
+            <a:name>appkey</a:name>
+            <a:showValueOnUi>true</a:showValueOnUi>
+        </a:attribute>
+        <a:showPerUser>true</a:showPerUser>
+        <a:testExpression>getlinkedinsearchresult(&quot;a&quot;,&quot;COMPANY&quot;,{&quot;linkedin&quot;,&quot;81x2pzvx67dli4&quot;,&quot;llahryu4hdhnrjgi&quot;,&quot;aqvyokqfgzstd_chromsfli_s8i-esau2bddhiie2frkuwlbnwuvvhoeeqovwoyu1ab0k259bpsgzncgtx5ed63vjbfwurjaopzco52wmptw0ixtusqe5lyzzxluhsn6zepxw8wfd0cqltbvkztpsqgdrcedec_q_zfzcacmxt-wirk-soi&quot;,&quot;aqvyokqfgzstd_chromsfli_s8i-esau2bddhiie2frkuwlbnwuvvhoeeqovwoyu1ab0k259bpsgzncgtx5ed63vjbfwurjaopzco52wmptw0ixtusqe5lyzzxluhsn6zepxw8wfd0cqltbvkztpsqgdrcedec_q_zfzcacmxt-wirk-soi&quot;})</a:testExpression>
+        <a:allowedPlugin>socialcontentcrawling</a:allowedPlugin>
+    </externalSystem>
+</thirdPartyCredentialsHaul>

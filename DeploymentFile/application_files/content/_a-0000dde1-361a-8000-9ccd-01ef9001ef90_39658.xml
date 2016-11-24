@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <rule>
+        <name>Deployment</name>
+        <uuid>_a-0000dde1-361a-8000-9ccd-01ef9001ef90_39658</uuid>
+        <description>Contains form</description>
+        <parentUuid>_a-0000dde1-361a-8000-9ccd-01ef9001ef90_39657</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>=#&quot;SYSTEM_SYSRULES_formLayout&quot;(
+  label: &quot;Lorem Ipsum&quot;,
+  instructions: &quot;Lorem Ipsum&quot;,
+  firstColumnContents: {
+    #&quot;SYSTEM_SYSRULES_textField&quot;(
+      label: &quot;Name&quot;,
+      labelPosition: &quot;ABOVE&quot;,
+      saveInto: {},
+      refreshAfter: &quot;UNFOCUS&quot;,
+      validations: {}
+    ),
+     #&quot;SYSTEM_SYSRULES_textField&quot;(
+      label: &quot;Fname&quot;,
+      labelPosition: &quot;ABOVE&quot;,
+      saveInto: {},
+      refreshAfter: &quot;UNFOCUS&quot;,
+      validations: {}
+    ),
+     #&quot;SYSTEM_SYSRULES_textField&quot;(
+      label: &quot;ContactNo&quot;,
+      labelPosition: &quot;ABOVE&quot;,
+      saveInto: {},
+      refreshAfter: &quot;UNFOCUS&quot;,
+      validations: {}
+    )
+  },
+  secondColumnContents: {
+    /* Add components here for a two-column form */
+  },
+  buttons: #&quot;SYSTEM_SYSRULES_ButtonLayout&quot;(
+    primaryButtons: {
+      #&quot;SYSTEM_SYSRULES_ButtonWidgetSubmit&quot;(
+        label: &quot;Submit&quot;,
+        style: &quot;PRIMARY&quot;,
+        saveInto: {}
+      )
+    },
+    secondaryButtons: {
+      #&quot;SYSTEM_SYSRULES_ButtonWidgetSubmit&quot;(
+        label: &quot;Cancel&quot;,
+        style: &quot;NORMAL&quot;,
+        value: true,
+        saveInto: ri!cancel,
+        skipValidation: true
+      )
+    }
+  ),
+  validations: {}
+)</definition>
+        <namedTypedValue>
+            <name>cancel</name>
+            <type>
+                <name>boolean</name>
+                <namespace>http://www.w3.org/2001/XMLSchema</namespace>
+            </type>
+        </namedTypedValue>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+    </rule>
+    <roleMap public="true">
+        <role allowForAll="false" inherit="true" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="true" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="true" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+</contentHaul>

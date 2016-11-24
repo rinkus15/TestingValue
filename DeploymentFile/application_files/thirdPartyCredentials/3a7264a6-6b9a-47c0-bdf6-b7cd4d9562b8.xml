@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<thirdPartyCredentialsHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <externalSystem>
+        <a:uuid>3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8</a:uuid>
+        <a:name>SharePointServer</a:name>
+        <a:key>sharepointserver</a:key>
+        <a:attribute>
+            <a:key>username</a:key>
+            <a:name>UserName</a:name>
+            <a:showValueOnUi>true</a:showValueOnUi>
+        </a:attribute>
+        <a:attribute>
+            <a:key>password</a:key>
+            <a:name>Password</a:name>
+            <a:showValueOnUi>true</a:showValueOnUi>
+        </a:attribute>
+        <a:attribute>
+            <a:key>domain</a:key>
+            <a:name>domain</a:name>
+            <a:showValueOnUi>true</a:showValueOnUi>
+        </a:attribute>
+        <a:showPerUser>true</a:showPerUser>
+    </externalSystem>
+</thirdPartyCredentialsHaul>
