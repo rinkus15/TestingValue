@@ -38,6 +38,13 @@
       saveInto: {},
       refreshAfter: &quot;UNFOCUS&quot;,
       validations: {}
+    ),
+    #&quot;SYSTEM_SYSRULES_textField&quot;(
+      label: &quot;Address&quot;,
+      labelPosition: &quot;ABOVE&quot;,
+      saveInto: {},
+      refreshAfter: &quot;UNFOCUS&quot;,
+      validations: {}
     )
   },
   secondColumnContents: {
